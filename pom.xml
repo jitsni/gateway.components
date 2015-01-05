@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.kaazing</groupId>
+    <artifactId>gateway.components</artifactId>
+    <name>Kaazing WebSocket Gateway - Components</name>
+    <version>1.0.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <!-- resource address modules -->
+        <module>gateway.resource.address</module>
+        <module>gateway.resource.address.http</module>      
+        <module>gateway.resource.address.httpx</module>
+        <module>gateway.resource.address.httpxdraft</module> 
+        <module>gateway.resource.address.httpxe</module>
+        <module>gateway.resource.address.pipe</module>       
+        <module>gateway.resource.address.rtmp</module>       
+        <module>gateway.resource.address.sse</module>        
+        <module>gateway.resource.address.ssl</module>
+        <module>gateway.resource.address.tcp</module>
+        <module>gateway.resource.address.udp</module>
+        <module>gateway.resource.address.ws</module>
+        <module>gateway.resource.address.wsdraft</module>
+        <module>gateway.resource.address.wse</module>
+        <module>gateway.resource.address.wsn</module>
+        <module>gateway.resource.address.wsr</module>
+        <module>gateway.resource.address.wsx</module>
+        <module>gateway.resource.address.wsxdraft</module>
+
+        <!-- transport modules -->
+        <module>gateway.transport</module>
+        <module>gateway.transport.bio</module>
+        <module>gateway.transport.http</module>
+        <module>gateway.transport.nio</module>
+        <module>gateway.transport.pipe</module>
+        <module>gateway.transport.sse</module>
+        <module>gateway.transport.ssl</module>
+        <module>gateway.transport.ws</module>
+        <module>gateway.transport.wseb</module>
+        <module>gateway.transport.wsn</module>
+        <module>gateway.transport.wsr</module>
+
+        <!-- service modules -->
+        <module>gateway.service</module>
+        <module>gateway.service.broadcast</module>
+        <module>gateway.service.echo</module>
+        <module>gateway.service.http.balancer</module>
+        <module>gateway.service.http.directory</module>
+        <module>gateway.service.proxy</module>
+        <module>gateway.service.update.check</module>
+        <module>gateway.service.update.check.management</module>
+
+        <!-- security modules -->
+        <module>gateway.security</module>
+
+        <!-- util module -->
+        <module>gateway.util</module>
+
+        <!-- gateway.server module -->
+        <module>gateway.server</module>
+
+        <!-- mina.netty module -->
+        <module>mina.core</module>
+        <module>mina.netty</module>
+
+        <module>gateway.server.spi</module>
+        <module>gateway.server.api</module>
+
+        <module>gateway.distribution</module>
+        <module>gateway.management</module>
+<!--
+<module>gateway.console</module>
+<module>gateway.bridge</module>
+-->
+        <module>gateway.service.amqp</module>
+        <module>test.util</module>
+
+    </modules>
+
+</project>
